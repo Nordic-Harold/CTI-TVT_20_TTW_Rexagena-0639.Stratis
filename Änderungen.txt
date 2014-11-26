@@ -1,0 +1,54 @@
+16.04.13
+- Dialog für MHQ Mob Vote hinzugefügt
+		Funktion "CT_Vote_Dialog" in "functions\functions\functions_voting.sqf"
+
+17.04.13
+-Neuer Ordner für Funktionen für Dialog "Functions_DLG"
+-Dialog für Hauptmenü hinzugefügt (noch nicht funktionstüchtig, subdialoge fehlen)
+-Dialog für Ausrüstungsmenü hinzugefügt (WIP)
+
+-Änderung der types von im Array "Tee_Weapon_Array" (variablen.sqf)
+- Genauere unterteilung in Ausrüstungsteile vorgenommen
+		Bezeichnung			Interner Typ	Befehl auslesen				Befehl hinzufügen Spieler		Befehl hinzufügen Kiste
+		Magazine 			"mag"			magazines					addmagazine						addMagazineCargoGlobal
+		Waffen				"wep"			weapons						addweapon						addWeaponCargoGlobal
+		Items				"item"			items						additem							addItemCargoGlobal
+		Helme				"hg"			headgear					addheadgear						addItemCargoGlobal
+		Brillen				"ggls"			goggles						addgoggles						addItemCargoGlobal
+		Rucksäcke			"bp"			backpack					addbackpack						addItemCargoGlobal
+		Uniformen			"uni"			uniform						adduniform						addItemCargoGlobal
+		Westen				"vest"			vest						addvest							addItemCargoGlobal
+		Prim.Waff.Items		"pwi"			primaryweaponitems			addprimaryweaponitem			addItemCargoGlobal
+		Sek. Waff.Items		"swi"			secondaryweaponitems		secondaryWeaponItems			addItemCargoGlobal
+		
+		Array für ListBox [[Waffen],[Magazine],[Items],[Uniform,Helme,Westen,Goggles],[Backpack]];
+		bisher wurden nur Item,Wep und mag verwendet
+		
+18.04.13
+- Entwurf für Unit Menu
+	und dazugehörige funktionen (functions_dlg)
+	
+19.04.13
+-Anpassung der Namen der Einheiten
+	suffix "(east)" und "(west)" entfernt
+	Einheiten können nur mehr der Seite entsprechend gekauft werden
+- entwurf für Vehicle Menu
+	und dazugehörige funktionen in "functions_dlg"
+- Hauptmenü voll funktionfähig und wird mit tastendruck "U" aufgerufen
+	Alle zur verfügung stehenden Aktionen werden mit weißer Schrift angezeigt, nicht verfügbare aktionen sind grau
+	Kaufdialoge stehen nur zur verfügung wenn der Abstand zum Hauptquartier <= CT_DLG_DistanceToBase (in "dlg_variables.sqf")
+		beachte 21.04.13 Punkt 1
+- "Vote" funktion aus dem Actionmenu in das Hauptmenü verlegt
+	Zugriff auf Vote Menü von Hauptmenü aus, nur wenn Umfrage läuft
+	
+21.04.13
+- Alle Aktionen bezüglich Vote, Gear, Weapons und Vehicles vom Actionmenü in das Hauptmenü verlegt
+- neue funktion "Tee_AddItem" in "functions\functions_weapons.sqf" zum hinzufügen von items zum spieler
+- Buy Gear Dialog bis auf eine Funktion voll Funktionsfähig (abklären mit tee bezüglich kauf in eine Kiste)
+- AIDefence: der 1. und Letzte WP der KI sollte jetzt das stadtobjekt sein!
+
+23.06.2013
+-Anpassung für Beta
+-Neue Fahrzeuge und Waffen integriert
+-Bug: Marker der Städe haben nicht ordentlich funktioniert ->gefixt
+-Bug: setvehicleinit nicht mehr vorhanden ->gefixt

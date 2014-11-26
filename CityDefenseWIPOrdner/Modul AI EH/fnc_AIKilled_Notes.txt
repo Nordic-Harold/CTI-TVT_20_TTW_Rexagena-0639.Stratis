@@ -1,0 +1,20 @@
+Funktion fnc_AIKilled:
+->getötete AI aus Gruppe löschen
+->getötete AI körper aus welt löschen
+->Gruppen werden von ArmA automatisch gelöscht, sobald sie keine Mitglieder mehr hat
+
+
+Funktionen:		
+Funktionsname							Datei								Typ					Aufrufen mit
+fnc_AIDef_AIKilled						AIDef_AIKilled.sqf					Funktion			call (wenn pp)	
+fnc_AIDef_AIKilled_HideBody				AIDef_AIKilled_HideBody.sqf			Script				spawn (wenn pp)/execVM (ohne pp)
+
+Variablen:
+AIDef_BodyRemovalTime
+
+
+Wichtig:
+der normale Killed Eventhandler wird nur dort ausgeführt, wo er hinzugefügt wurde (lokal ist). Bei Server/HC gesteuerter KI muss immer dort der EH hinzugefügt werden. Für AI, welche der Spieler erstellt gilt, dass diese Lokal auf dem Computer des Squadleaders ist, d.h. dass bei erstellen der Einheit sicherzustellen ist, dass der EH auf dem Computer des Squadleaders zur erstellten einheit hinzugefügt wird!
+
+Legende:
+pp...		preprocessed/vorgeladen

@@ -1,0 +1,106 @@
+/* #Rotuxa Gear Menu Alt
+$[
+	1.061,
+	["GearMenu",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0],
+	[1000,"Text_GearMenu_Title",[2,"Gear Menu",["3 * GUI_GRID_W + GUI_GRID_X","1 * GUI_GRID_H + GUI_GRID_Y","34 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],
+	[1001,"Text_GearMenu_BG",[2,"",["3 * GUI_GRID_W + GUI_GRID_X","2 * GUI_GRID_H + GUI_GRID_Y","34 * GUI_GRID_W","21.5 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.8],[-1,-1,-1,-1],"","-1"],[]],
+	[2100,"Combo_GearMenu_SelType",[2,"",["4 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1500,"LB_GearMenu_SelGear",[2,"",["4 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","14 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1800,"Frame_GearMenu_AccountData",[2,"AccountData",["15 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","2 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1002,"Text_GearMenu_MoneyText",[2,"Money:",["15.5 * GUI_GRID_W + GUI_GRID_X","3.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1003,"Text_GearMenu_MoneyCount",[2,"5000 $",["19.5 * GUI_GRID_W + GUI_GRID_X","3.5 * GUI_GRID_H + GUI_GRID_Y","5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1801,"Frame_GearMenu_GearInfo1",[2,"Gear Information",["15 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","9 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1202,"Picture_GearMenu_GearInfo1",[2,"\A3\weapons_f\launchers\nlaw\data\UI\gear_nlaw_ca.paa",["15.9 * GUI_GRID_W + GUI_GRID_X","6 * GUI_GRID_H + GUI_GRID_Y","8 * GUI_GRID_W","4 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1501,"LB_GearMenu_SelAddGear",[2,"",["4 * GUI_GRID_W + GUI_GRID_X","18.5 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","4.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1005,"Text_GearMenu_CostText",[2,"Cost:",["15 * GUI_GRID_W + GUI_GRID_X","11.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1006,"Text_GearMenu_NameWeaponValue",[2,"TestWaffe",["18 * GUI_GRID_W + GUI_GRID_X","10.5 * GUI_GRID_H + GUI_GRID_Y","6.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1007,"Text_GearMenu_CostValue",[2,"500$",["18 * GUI_GRID_W + GUI_GRID_X","11.5 * GUI_GRID_H + GUI_GRID_Y","6.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1802,"Frame_GearMenu_GearInfo2",[2,"Gear Information",["15 * GUI_GRID_W + GUI_GRID_X","14 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","9 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1502,"LB_GearMenu_ViewGear",[2,"",["25.5 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","11.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1803,"Frame_GearMenu_Costs",[2,"Cost Information",["25.5 * GUI_GRID_W + GUI_GRID_X","18 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1700,"Button_GearMenu_RemoveSelected",[2,"",["25.5 * GUI_GRID_W + GUI_GRID_X","15.7 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1701,"Button_GearMenu_RemoveAll",[2,"",["25.5 * GUI_GRID_W + GUI_GRID_X","17 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1008,"Text_GearMenu_OverallCostText",[2,"Cost:",["26 * GUI_GRID_W + GUI_GRID_X","18.8 * GUI_GRID_H + GUI_GRID_Y","2.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1010,"Text_GearMenu_OverallCostValue",[2,"500$",["28.5 * GUI_GRID_W + GUI_GRID_X","18.8 * GUI_GRID_H + GUI_GRID_Y","7 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1702,"Button_GearMenu_BuyToCrate",[2,"",["27 * GUI_GRID_W + GUI_GRID_X","20 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1703,"Button_GearMenu_BuyToInventory",[2,"",["27 * GUI_GRID_W + GUI_GRID_X","21.5 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1200,"Picture_GearMenu_GearInfo2",[2,"\A3\weapons_f\launchers\nlaw\data\UI\gear_nlaw_ca.paa",["16 * GUI_GRID_W + GUI_GRID_X","15 * GUI_GRID_H + GUI_GRID_Y","8 * GUI_GRID_W","4 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1004,"Text_GearMenu_NameText",[2,"Name:",["15 * GUI_GRID_W + GUI_GRID_X","10.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1009,"Text_GearMenu_NameText2",[2,"Name:",["15 * GUI_GRID_W + GUI_GRID_X","19 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1011,"Text_GearMenu_CostText2",[2,"Cost:",["15 * GUI_GRID_W + GUI_GRID_X","20 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1012,"Text_GearMenu_NameValue2",[2,"TestWaffe",["18 * GUI_GRID_W + GUI_GRID_X","19 * GUI_GRID_H + GUI_GRID_Y","6.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1013,"Text_GearMenu_CostValue2",[2,"500$",["18 * GUI_GRID_W + GUI_GRID_X","20 * GUI_GRID_H + GUI_GRID_Y","6.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1014,"Text_GearMenu_YourGearText",[2,"Your Gear",["25.5 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.5,0.5,0.5,0.8],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/
+/* #Kadowy
+$[
+	1.061,
+	["GearMenu",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0],
+	[1000,"Text_GearMenu_Title",[2,"Gear Menu",["8 * GUI_GRID_W + GUI_GRID_X","1 * GUI_GRID_H + GUI_GRID_Y","25.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],
+	[1001,"Text_GearMenu_BG",[2,"",["8 * GUI_GRID_W + GUI_GRID_X","2 * GUI_GRID_H + GUI_GRID_Y","25.5 * GUI_GRID_W","18 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.8],[-1,-1,-1,-1],"","-1"],[]],
+	[2100,"Combo_GearMenu_SelType",[2,"",["9 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1500,"LB_GearMenu_SelGear",[2,"",["9 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","15.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1800,"Frame_GearMenu_AccountData",[2,"AccountData",["22 * GUI_GRID_W + GUI_GRID_X","12 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","2 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1002,"Text_GearMenu_MoneyText",[2,"Money:",["22.5 * GUI_GRID_W + GUI_GRID_X","12.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1003,"Text_GearMenu_MoneyCount",[2,"5000 $",["27 * GUI_GRID_W + GUI_GRID_X","12.5 * GUI_GRID_H + GUI_GRID_Y","5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1502,"LB_GearMenu_ViewGear",[2,"",["22 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","8 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1803,"Frame_GearMenu_Costs",[2,"Cost Information",["22 * GUI_GRID_W + GUI_GRID_X","14 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","5.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1700,"Button_GearMenu_Add1",[2,"",["20 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1008,"Text_GearMenu_OverallCostText",[2,"Cost:",["23 * GUI_GRID_W + GUI_GRID_X","15 * GUI_GRID_H + GUI_GRID_Y","2.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1010,"Text_GearMenu_OverallCostValue",[2,"500$",["27 * GUI_GRID_W + GUI_GRID_X","15 * GUI_GRID_H + GUI_GRID_Y","5.5 * GUI_GRID_W","0.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1702,"Button_GearMenu_BuyToCrate",[2,"",["23.5 * GUI_GRID_W + GUI_GRID_X","16.5 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1703,"Button_GearMenu_BuyToInventory",[2,"",["23.5 * GUI_GRID_W + GUI_GRID_X","18 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1014,"Text_GearMenu_YourGearText",[2,"Your Gear",["22 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.5,0.5,0.5,0.8],[-1,-1,-1,-1],"","-1"],[]],
+	[1704,"Button_GearMenu_Remove1",[2,"",["20 * GUI_GRID_W + GUI_GRID_X","6.5 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1705,"Button_GearMenu_AddAll",[2,"",["20 * GUI_GRID_W + GUI_GRID_X","8 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1706,"Button_GearMenu_RemoveAll",[2,"",["20 * GUI_GRID_W + GUI_GRID_X","9.5 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/
+
+
+/* #Hosica
+$[
+	1.061,
+	["UnitMenu",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,1],
+	[1000,"Text_UnitMenu_Title",[2,"Unit Menu",["3 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","34 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],
+	[1001,"Text_UnitMenu_BG",[2,"",["3 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","34 * GUI_GRID_W","15 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.8],[-1,-1,-1,-1],"","-1"],[]],
+	[1500,"LB_UnitMenu_SelectUnit",[2,"",["3.5 * GUI_GRID_W + GUI_GRID_X","5.8 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","12 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1800,"Frame_UnitMenu_AccountData",[2,"AccountData",["26.5 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","2 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1002,"Text_UnitMenu_FundsText",[2,"Money:",["27.5 * GUI_GRID_W + GUI_GRID_X","5.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1003,"Text_UnitMenu_FundsValue",[2,"5000 $",["30 * GUI_GRID_W + GUI_GRID_X","5.5 * GUI_GRID_H + GUI_GRID_Y","6 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1501,"LB_UnitMenu_SelectedUnits",[2,"",["15.7 * GUI_GRID_W + GUI_GRID_X","5.8 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","12 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1004,"Text_UnitMenu_AllUnitsAvailable",[2,"Units Available",["3.5 * GUI_GRID_W + GUI_GRID_X","4.7 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],
+	[1801,"Frame_UnitMenu_CostData",[2,"CostData",["26.5 * GUI_GRID_W + GUI_GRID_X","7.5 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1005,"Text_UnitMenu_AllUnitsSelected",[2,"Selected Units",["15.7 * GUI_GRID_W + GUI_GRID_X","4.7 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],
+	[1700,"Button_UnitMenu_BuyUnit",[2,"",["27.7 * GUI_GRID_W + GUI_GRID_X","11 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1701,"Button_UnitMenu_Select1",[2,">",["13.8 * GUI_GRID_W + GUI_GRID_X","9 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1702,"Button_UnitMenu_Disselect1",[2,"<",["13.8 * GUI_GRID_W + GUI_GRID_X","10.3 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1703,"Button_UnitMenu_SelectAll",[2,">>",["13.8 * GUI_GRID_W + GUI_GRID_X","11.6 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1704,"Button_UnitMenu_DisselectAll",[2,"<<",["13.8 * GUI_GRID_W + GUI_GRID_X","12.9 * GUI_GRID_H + GUI_GRID_Y","1.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1006,"Text_UnitMenu_CostsText",[2,"Costs:",["27.5 * GUI_GRID_W + GUI_GRID_X","8.5 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1007,"Text_UnitMenu_CostsValue",[2,"5000 $",["30 * GUI_GRID_W + GUI_GRID_X","8.5 * GUI_GRID_H + GUI_GRID_Y","6 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/
+
+$[1.061,["Vehice",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,1],[1000,"Text_VehMenu_Title",[2,"Vehicle Menu",["10 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","22 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],[1001,"Text_VehMenu_BG",[2,"",["10 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","22 * GUI_GRID_W","15 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.8],[-1,-1,-1,-1],"","-1"],[]],[1500,"LB_VehMenu_SelectVehicle",[2,"",["11 * GUI_GRID_W + GUI_GRID_X","6.5 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","13 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1800,"Frame_VehMenu_AccountData",[2,"AccountData",["21.6 * GUI_GRID_W + GUI_GRID_X","5.3 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","2 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1002,"Text_VehMenu_FundsText",[2,"Money:",["22 * GUI_GRID_W + GUI_GRID_X","5.8 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1003,"Text_VehMenu_FundsValue",[2,"5000 $",["25 * GUI_GRID_W + GUI_GRID_X","5.8 * GUI_GRID_H + GUI_GRID_Y","6 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],[1004,"Text_VehMenu_AllVehiclesAvailable",[2,"Vehicles Available",["11 * GUI_GRID_W + GUI_GRID_X","5.5 * GUI_GRID_H + GUI_GRID_Y","10 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0.48,0.5,0.35,1],[-1,-1,-1,-1],"","-1"],[]],[1700,"Button_VehMenu_BuyUnit",[2,"",["22.5 * GUI_GRID_W + GUI_GRID_X","18 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]]
+
+
+"\A3\weapons_F\Rifles\Khaybar\Data\UI\gear_Khaybar_X_CA.paa"
+"\A3\weapons_F\Rifles\MX\data\UI\gear_mx_rifle_X_CA.paa"
+"\A3\characters_f\Data\UI\icon_H_HelmetB_CA.paa"
+"\A3\weapons_F\Pistols\P07\data\UI\gear_p07_x_ca.paa"
+"\A3\Weapons_F\Data\UI\gear_item_gps_CA.paa"
+"\A3\weapons_f\launchers\nlaw\data\UI\gear_nlaw_ca.paa"
+"\A3\Weapons_F\Data\UI\gear_nvg_CA.paa"
+"\A3\weapons_F\Data\UI\gear_acco_Arco_CA.paa"
+"\A3\Weapons_F\Items\data\UI\gear_Toolkit_CA.paa";
+"\A3\Weapons_F\Data\UI\gear_mine_AT_CA.paa";
+"\A3\Weapons_F\Data\UI\M_chemlight_blue_CA.paa";
+"\A3\Weapons_F\Data\UI\gear_M67_CA.paa";
+"\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
+
+Uniformen: 	["8.5 * GUI_GRID_W + GUI_GRID_X","-6.5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","4 * GUI_GRID_H"]
+Waffen:		["15.5 * GUI_GRID_W + GUI_GRID_X","7.5 * GUI_GRID_H + GUI_GRID_Y","8 * GUI_GRID_W","4 * GUI_GRID_H"]
+HG:			["13 * GUI_GRID_W + GUI_GRID_X","-6 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","4 * GUI_GRID_H"]
+Mines/leu:	["17 * GUI_GRID_W + GUI_GRID_X","-6 * GUI_GRID_H + GUI_GRID_Y","3 * GUI_GRID_W","2.5 * GUI_GRID_H"]	
