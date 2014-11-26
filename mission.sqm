@@ -742,9 +742,9 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={479.11487,0.017474035,7565.4702};
+			position[]={486.55103,-0.33166066,7607.6294};
 			name="crostijeg";
-			text=" Rexagena - Croatian ArmA Community";
+			text=" Arma3Pro Steam Group";
 			type="flag_Croatia";
 		};
 		class Item19
