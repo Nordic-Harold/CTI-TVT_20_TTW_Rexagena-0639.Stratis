@@ -4,10 +4,10 @@ respawnDialog 	= 1;
 disabledAI 	= 1;
 
 author		= "TeeTime, Edit by Gentoo, GunnyTomHighway";
-overviewPicture	= "images\logo-ttw-rexa.paa";
+overviewPicture	= "images\load_ttw_rexa.paa";
 OnLoadName 	= "TeeTimes Warfare";
 OnLoadMission 	= "Light Divisions of Nato Forces and the Iranian Army landed at the coast of Stratis to get control over the strategically important island.";
-loadScreen 	= "images\logo-ttw-rexa.paa";
+loadScreen 	= "images\load_ttw_rexa.paa";
 
 //------------------------AIS INJURY----------------------------
 class RscTitles {

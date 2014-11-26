@@ -190,8 +190,7 @@ TW_Vehicle_Shop_West = [
 //Cars
 301,
 302,
-303,
-304,
+305,
 
 //Trucks
 401,
@@ -213,10 +212,9 @@ TW_Vehicle_Shop_East = [
 //Boats
 
 //Cars
-305,
 306,
 307,
-304,
+305,
 
 //Trucks
 402,
@@ -437,16 +435,18 @@ Tee_Veh_Array =
 	//Car
 	//West	
 	[301,		"Hunter",								"B_MRAP_01_F",									1000 * vehicle_price,		0,							"Car"],
-	[302,		"Hunter GMG",					"B_MRAP_01_gmg_F",							15000 * vehicle_price,		0,							"Car"],
-	[303,		"Hunter HMG",					"B_MRAP_01_hmg_F",							8000 * vehicle_price,		0,							"Car"],
+	[302,		"Offroad Armed",				"I_G_offroad_01_armed_F",				8000 * vehicle_price,		0,							"Car"],
+	[303,		"Hunter GMG",					"B_MRAP_01_gmg_F",							23000 * vehicle_price,		0,							"Car"],
+	[304,		"Hunter HMG",					"B_MRAP_01_hmg_F",							20000 * vehicle_price,		0,							"Car"],
 	
 	//Independent
-	[304,		"Offroad",								"C_Offroad_01_F",								500 * vehicle_price,			0,							"Car"],
+	[305,		"Offroad",								"C_Offroad_01_F",								500 * vehicle_price,			0,							"Car"],
 
 	//East	
-	[305,		"Ifrit",										"O_MRAP_02_F",									1000 * vehicle_price,		0,							"Car"],
-	[306,		"Ifrit GMG",							"O_MRAP_02_gmg_F",						15000 * vehicle_price,		0,							"Car"],
-	[307,		"Ifrit MG",								"O_MRAP_02_hmg_F",						5000 * vehicle_price,		0,							"Car"],
+	[306,		"Ifrit",										"O_MRAP_02_F",									1000 * vehicle_price,		0,							"Car"],
+	[307,		"Offroad Armed",				"O_G_offroad_01_armed_F",			8000 * vehicle_price,		0,							"Car"],
+	[308,		"Ifrit GMG",							"O_MRAP_02_gmg_F",						23000 * vehicle_price,		0,							"Car"],
+	[309,		"Ifrit MG",								"O_MRAP_02_hmg_F",						20000 * vehicle_price,		0,							"Car"],
 	
 	//Truck
 	//West	
@@ -462,8 +462,8 @@ Tee_Veh_Array =
 	
 	//Air
 	[601,		"AH-9 Pawnee",					"B_Heli_Light_01_armed_F",				37500 * airvehicle_price,		0,						"Air"],
-	[602,		"MH-9 Hummingbird",		"B_Heli_Light_01_F",							8000 * airvehicle_price,		0,						"Air"],
-	[603,		"PO-30 Orca",						"O_Heli_Light_02_unarmed_F",			12500 * airvehicle_price,		0,						"Air"],
+	[602,		"MH-9 Hummingbird",		"B_Heli_Light_01_F",							9000 * airvehicle_price,		0,						"Air"],
+	[603,		"PO-30 Orca",						"O_Heli_Light_02_unarmed_F",			9000 * airvehicle_price,		0,						"Air"],
 	[604,		"PO-30 Orca Armed",		"O_Heli_Light_02_F",							37500 * airvehicle_price,		0,						"Air"],
 	[605,		"AH-99 Blackfoot",			"B_Heli_Attack_01_F",							55000 * airvehicle_price,		0,						"Air"],
 	[606,		"UH-80 Ghosthawk",		"B_Heli_Transport_01_F",					20000 * airvehicle_price,		0,						"Air"],

@@ -31,7 +31,7 @@ class Mission
 	class Intel
 	{
 		briefingName="[CTI-TVT] TeeTimes Warfare [Rexagena] Stratis";
-		overviewText="Version 20141120.00649 - Warfare by TeeTime, Edit by Gentoo, GunnyTomHighway";
+		overviewText="Version 20141126.0652 - Warfare by TeeTime, Edit by Gentoo, GunnyTomHighway";
 		resistanceWest=0;
 		startWeather=0.29999998;
 		startWind=0.099999994;
