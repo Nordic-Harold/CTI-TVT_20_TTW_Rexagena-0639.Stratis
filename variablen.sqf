@@ -236,7 +236,7 @@ TW_Vehicle_Shop_Town = [
 //Boats
 
 //Cars
-304
+302
 
 //Trucks
 
