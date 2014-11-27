@@ -37,6 +37,22 @@ Tee_SetPlayer = {
 
 	
 	//Welcome Msg
+	_pause = 40; // sleep time
+	_msg = format ["
+		<img size= '10' shadow='false' image='images\ArmA3PRO.paa'/><br/><br/>
+		<t color='#F1FA06' size='1.7'>TeeTimes Warfare</t><br/>
+		<t color='#A1A4AD' size='1.4'>ArmA 3 Pro Edit</t><br/><br/>
+		<t color='#6C7169' align='left'>Welcome to TeeTime's Warfare - Rexagena Edit</t><br/><br/>		
+		<t color='#6C7169' align='left'>Your Team objective is to capture all cities in strategic order to win this mission!</t><br/><br/>
+		<t color='#6C7169' align='left'>You will increase your income by capturing and holding more cities.</t><br/><br/>
+		<t color='#6C7169' align='left'>Use mouse scroll to access the Main Menu. You have to be close to MHQ to buy more weapons and vehicles or buy them at captured towns by using the Action Menu</t><br/><br/>
+		<t color='#6C7169' align='left'>Good Luck and Have Fun!</t><br/><br/>
+		"];
+	hintSilent parseText _msg;
+	if (spDetected) exitWith {};
+	sleep _pause;		
+	
+/*
 	sleep 5;
 	titleText[localize "STRS_welcome_1", "PLAIN DOWN"];	//Msg
 	sleep 5;
@@ -47,7 +63,7 @@ Tee_SetPlayer = {
 	titleText[localize "STRS_InfoText_1", "PLAIN DOWN"];	//Msg
 	sleep 5;	
 	titleText[localize "STRS_welcome_end", "PLAIN DOWN"];	//Msg
-	
+*/	
 };
 /*	
 	[] spawn CT_Info_Dialog;

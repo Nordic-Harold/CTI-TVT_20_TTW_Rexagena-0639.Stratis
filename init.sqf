@@ -74,6 +74,10 @@
 		-Startresourcen (500, 1000, 2000, 5000, 10000, 20000, 50000)
 */
 
+[] spawn {
+	waitUntil {time > 21};
+	["<img size= '10' shadow='false' image='images\ArmA3PRO.paa'/><br/><br/><t size='.7' color='#FFFFFF'>ArmA 3 Pro TeeTimes Warfare</t>",0,0,3,12] spawn BIS_fnc_dynamicText;
+};
 
 // Task Force Radio Client Settings ----------------------------------------------------	
 tf_no_auto_long_range_radio = true;
