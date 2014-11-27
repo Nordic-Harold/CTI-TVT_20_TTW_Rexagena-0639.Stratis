@@ -99,6 +99,8 @@ Tee_Vote_Vote = {
 	publicVariable "TW_Vote_Votes";
 	
 	{
+		diag_log "TW_Vote_Actions";
+		diag_log format["removeAction %1",_x];
 		player removeAction _x;
 	} forEach TW_Vote_Actions;
 	

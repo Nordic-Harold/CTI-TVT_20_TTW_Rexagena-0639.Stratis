@@ -139,6 +139,8 @@ Tee_ActionLoop = {
 		} else {
 				{
 					player removeAction _x;
+					diag_log "Save gear";
+					diag_log format ["removeAction %1",_x];
 				} forEach _sagegear_actionarray;
 				
 				_sagegear_actionarray 	= [];
@@ -192,6 +194,8 @@ Tee_ActionLoop = {
 			if(!_neartown && _townaction) then {
 				{
 					player removeAction _x;
+					diag_log "_neartown && _townaction";
+					diag_log format ["removeAction %1",_x];
 				} forEach _town_actionarray;
 				
 				_town_actionarray 	= [];
@@ -221,6 +225,7 @@ Tee_ActionLoop = {
 			if(_grp_leaveaction) then {
 				{
 					player removeAction _x;
+					diag_log format ["removeAction %1",_x];
 				} forEach _grp_actionarray1;
 				
 				_grp_actionarray1 = [];
@@ -242,7 +247,9 @@ Tee_ActionLoop = {
 		} else {
 			if(_grp_joinaction) then {
 				{
-					player removeAction _x;
+					diag_log "_grp_joinaction";
+					diag_log format ["removeAction %1",_x];
+					player removeAction _x;					
 				} forEach _grp_actionarray2;
 				
 				_grp_actionarray2 = [];
@@ -271,6 +278,8 @@ Tee_ActionLoop = {
 		} else {
 			if(_hq_action && TW_playerside == "west") then {
 				{
+					diag_log "_hq_action";
+					diag_log format ["removeAction %1",_x];
 					player removeAction _x;
 				} forEach _hq_actionarray;
 				
@@ -428,6 +437,8 @@ Tee_ActionLoop = {
 		} else {
 			if(_repairaction && TW_playerside == "west") then {
 				{
+					diag_log "_repairaction";
+					diag_log format ["removeAction %1",_x];
 					player removeAction _x;
 				} forEach _repairactionarray;
 				
@@ -455,6 +466,8 @@ Tee_ActionLoop = {
 		} else {
 			if(_hq_action && TW_playerside == "east") then {
 				{
+					diag_log "_hq_action";
+					diag_log format["removeAction %1",_x];
 					player removeAction _x;
 				} forEach _hq_actionarray;
 				
@@ -606,6 +619,8 @@ Tee_ActionLoop = {
 		} else {
 			if(_repairaction && TW_playerside == "east") then {
 				{
+					diag_log "_repairaction";
+					diag_log format["removeAction %1",_x];
 					player removeAction _x;
 				} forEach _repairactionarray;
 				
