@@ -4,8 +4,11 @@
 
 //--- Hide first to prevent spoils
 if (isMultiplayer) then {
-		2 cutText ["Receiving mission intel, wait 20 seconds...","BLACK FADED",2];
-//	12452 cutText ["Receiving mission intel...", "BLACK FADED", 50000];
+	2 cutText ["","BLACK FADED",2];
+	3 cutText ["Receiving mission intel, wait 23 seconds...","PLAIN DOWN",3];
+	[] spawn {
+		["<img size= '10' shadow='false' image='images\ArmA3PRO.paa'/><br/><br/><t size='.7' color='#FFFFFF'>ArmA 3 Pro TeeTimes Warfare</t>",0,0,3,12] spawn BIS_fnc_dynamicText;
+	};
 };	
 	
 Tee_SetPlayer = {
