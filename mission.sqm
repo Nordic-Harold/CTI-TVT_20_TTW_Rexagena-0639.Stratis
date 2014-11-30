@@ -494,7 +494,7 @@ class Mission
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
-			text="hq_west";			
+			text="hq_west";
 		};
 		class Item16
 		{
@@ -503,7 +503,7 @@ class Mission
 			side="EMPTY";
 			vehicle="O_MRAP_02_F";
 			skill=0.60000002;
-			text="hq_east";			
+			text="hq_east";
 		};
 		class Item17
 		{
