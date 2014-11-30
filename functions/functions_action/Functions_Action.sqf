@@ -72,7 +72,6 @@ Tee_ActionLoop = {
 		
 		//Money
 		if(!_money_action) then {
-			diag_log format ["AddActionCode: %1",AddActionCode];
 			_money_action2 = player addAction [localize "STRS_action_konto", AddActionCode,'[] call Tee_ShowMoney;',0,false];
 			_money_action = true;
 
@@ -242,7 +241,7 @@ Tee_ActionLoop = {
 		} else {
 			if(_grp_joinaction) then {
 				{
-					player removeAction _x;
+					player removeAction _x;					
 				} forEach _grp_actionarray2;
 				
 				_grp_actionarray2 = [];

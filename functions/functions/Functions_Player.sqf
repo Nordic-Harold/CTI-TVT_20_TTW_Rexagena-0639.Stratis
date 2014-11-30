@@ -51,7 +51,7 @@ Tee_SetPlayer = {
 		<t color='#6C7169' align='left'>Good Luck and Have Fun!</t><br/><br/>
 		"];
 	hintSilent parseText _msg;
-	if (spDetected) exitWith {};
+	//if (spDetected) exitWith {};
 	sleep _pause;		
 	
 /*

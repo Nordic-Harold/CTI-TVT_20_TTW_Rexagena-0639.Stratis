@@ -92,16 +92,16 @@ enableSaving [false,false];
 diag_log "=================TEETIMES WARFARE=================";
 
 west setFriend [resistance, 0];
-west setFriend [civilian, 0];
+//west setFriend [civilian, 0];
 
 east setFriend [resistance, 0];
-east setFriend [civilian, 0];
+//east setFriend [civilian, 0];
 
 resistance setFriend [WEST, 0];
 resistance setFriend [EAST, 0];
 
-civilian setFriend [WEST, 0];
-civilian setFriend [EAST, 0];
+//civilian setFriend [WEST, 0];
+//civilian setFriend [EAST, 0];
 
 skipTime ((paramsArray select 0) - daytime + 24 ) % 24;
 setViewDistance (paramsArray select 1);
