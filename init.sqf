@@ -86,6 +86,9 @@ tf_same_dd_frequencies_for_side = false;
 leaFunction =  compile preprocessFileLineNumbers "scripts\lea\loadout-init.sqf"; 
 call leaFunction;
 
+// Diary/Briefing ------------------------------------------------------------------------
+0 = [] execVM 'scripts\missionBriefing.sqf';
+
 finishMissionInit;
 enableSaving [false,false];
 
