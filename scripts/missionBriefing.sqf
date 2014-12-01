@@ -30,7 +30,7 @@ version: 0654 / DEC 2014
 player createDiaryRecord ["Diary",["Credits","
 <font color='#6C7169'>ArmA 3 Pro Mission Framework Modification by Gentoo, GunnyTomHighway, ths</font><br/><br/>
 <font color='#6C7169'>TcB AIS Wounding System by psycho</font><br/><br/>
-<font color='#6C7169'>Core Mission framework by TeeTime</font><br/><br/>
+<font color='#6C7169'>Core Mission framework by TeeTime, garisat, Cthulhu</font><br/><br/>
 <font color='#6C7169'>Briefing script and inspiration from Wolfpack missions by Whiztler</font><br/><br/>
 
 <font color='#6C7169'>Numerous scripts and code snippets from the talented mission makers. I've tried my best to include all your work credits. If I've forgot to give proper credits, let me know, and I'll include you immediately.</font><br/><br/>
