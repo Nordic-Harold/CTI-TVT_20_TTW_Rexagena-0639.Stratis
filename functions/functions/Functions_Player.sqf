@@ -42,7 +42,7 @@ Tee_SetPlayer = {
 	//Welcome Msg
 	_pause = 40; // sleep time
 	_msg = format ["
-		<img size= '10' shadow='false' image='images\ArmA3PRO.paa'/><br/><br/>
+		<img size= '10' shadow='false' image='images\arma3pro_logo.paa'/><br/><br/>
 		<t color='#F1FA06' size='1.7'>TeeTimes Warfare</t><br/>
 		<t color='#A1A4AD' size='1.4'>ArmA 3 Pro Edit</t><br/><br/>
 		<t color='#6C7169' align='left'>Your Team objective is to capture all cities in strategic order to win this mission!</t><br/><br/>
