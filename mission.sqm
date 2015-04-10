@@ -887,6 +887,25 @@ class Mission
 			colorName="ColorBlue";
 		};
 	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={5071.228,133.29845,5556.0996};
+			a=0;
+			b=0;
+			timeoutMin=60;
+			timeoutMid=80;
+			timeoutMax=100;
+			age="UNKNOWN";
+			expCond="true";
+			class Effects
+			{
+				track="LeadTrack03_F_Mark";
+			};
+		};
+	};
 };
 class Intro
 {
