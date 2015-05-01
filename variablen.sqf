@@ -577,8 +577,8 @@ Tee_Weapon_Array = [
 	[2404,		"Zafir LMG",					"LMG_Zafir_F",											1600 * weapon_price,		0,				"wep"		],
 	
 	//Magazines
-	[2400.1,	"150Rnd Box 7.62mm",					"150Rnd_762x51_Box",									100 * weapon_price,			0,				"mag"		],
-	[2400.2,	"150Rnd Box 7.62mm Tracer",		"150Rnd_762x51_Box_Tracer",					100 * weapon_price,			0,				"mag"		],
+	[2400.1,	"150Rnd Box 7.62mm",					"150Rnd_762x54_Box",									100 * weapon_price,			0,				"mag"		],
+	[2400.2,	"150Rnd Box 7.62mm Tracer",		"150Rnd_762x54_Box_Tracer",					100 * weapon_price,			0,				"mag"		],
 	[2400.3,	"200Rnd Box 6.5mm",						"200Rnd_65x39_cased_Box",						100 * weapon_price,			0,				"mag"		],
 	[2400.4,	"200Rnd Box 6.5mm Tracer",		"200Rnd_65x39_cased_Box_Tracer",			100 * weapon_price,			0,				"mag"		],
 	[2400.5,	"100Rnd 6.5mm (MX SW)",			"100Rnd_65x39_caseless_mag",					100 * weapon_price,			0,				"mag"		],
